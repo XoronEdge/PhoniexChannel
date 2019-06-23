@@ -1,0 +1,36 @@
+<div class="row">
+  <div class="col-md-12">
+    <div class="row justify-content-center align-items-center mt-5">
+      <input
+        id="input-name"
+        class="form-control mx-2"
+        style="width: 50%;"
+        placeholder="Enter Your Name"
+        value=""
+      />
+      <button id="name-btn" class="btn btn-primary ">Submit</button>
+    </div>
+    <div class="row justify-content-center align-items-center mt-5">
+      <input
+        id="channel-input-name"
+        class="form-control mx-2"
+        style="width: 50%;"
+        placeholder="Enter The Channel Name"
+      />
+      <button id="join-channel-btn" class="btn btn-primary ">
+        Join Channel
+      </button>
+    </div>
+    <div class="row justify-content-center align-items-center mt-5">
+      <input
+        id="message-input-field"
+        class="form-control mx-2"
+        style="width: 50%;"
+        placeholder="Enter The Message"
+      />
+      <button id="push-message-btn" class="btn btn-secondary ">
+        Push Message
+      </button>
+    </div>
+  </div>
+</div>
